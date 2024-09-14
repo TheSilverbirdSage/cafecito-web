@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+@layer components {
+  .links {
+   @apply text-white py-2 px-4 rounded cursor-pointer hover:bg-black;
+  }
+}
